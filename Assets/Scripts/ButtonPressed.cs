@@ -14,11 +14,7 @@ public class ButtonPressed : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     public Player playerScript;
     public ButtonType buttonType;
     float bulletDelay;
-    // Use this for initialization
-    void Start()
-    {
-
-    }
+ 
     void Update()
     {
         if (!ispressed)

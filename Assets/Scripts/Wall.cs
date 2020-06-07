@@ -5,10 +5,6 @@ using UnityEngine;
 public class Wall : MonoBehaviour {
     private float wallLifeTimer;
     private float wallLife = 2f;
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {

@@ -9,11 +9,6 @@ public class Bullet : MonoBehaviour {
     {
         startPos = this.transform.position;
     }
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
 	// Update is called once per frame
 	void Update () {
         if (this.transform.position.z > 4 || this.transform.position.z < -4)
